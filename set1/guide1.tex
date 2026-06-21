@@ -1,0 +1,485 @@
+% !TEX program = xelatex
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{xeCJK}
+\xeCJKsetup{AutoFakeBold=true}
+\setCJKmainfont{Noto Serif SC}
+\setCJKsansfont{Noto Serif SC}
+\setCJKmonofont{Noto Serif SC}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\definecolor{azul}{RGB}{30, 90, 160}
+\definecolor{grisclaro}{RGB}{245, 245, 245}
+\definecolor{azulclaro}{RGB}{220, 235, 255}
+\definecolor{rojosuave}{RGB}{200, 50, 50}
+
+\titleformat{\section}{\large\bfseries\color{azul}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{azul!80}}{}{0em}{}
+
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textcolor{azul}{\textbf{Chino Mandarín — Unidad 3}}}
+\lhead{\textcolor{gray}{Guía 1}}
+\rfoot{\thepage}
+\lfoot{\textcolor{gray}{\small Lecciones 7 y 8 · Fechas, deseos y compras}}
+
+\newmdenv[backgroundcolor=azulclaro, linecolor=azul, linewidth=1pt, innerleftmargin=10pt, innerrightmargin=10pt, innertopmargin=8pt, innerbottommargin=8pt]{cuadroazul}
+\newmdenv[backgroundcolor=grisclaro, linecolor=gray!40, linewidth=0.5pt, innerleftmargin=10pt, innerrightmargin=10pt, innertopmargin=8pt, innerbottommargin=8pt]{cuadrogris}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{\textcolor{azul}{Guía de Estudio 1}}}\\[4pt]
+{\large Lecciones 7 y 8 · Domingo}\\[2pt]
+{\normalsize Tiempo estimado: 3--4 horas · Tienes tu cuaderno}
+\end{center}
+
+\vspace{0.5em}
+\hrule height 2pt
+\vspace{1em}
+
+%---------------------------------------------------------
+\section{Contenido teórico — Lección 7: Fechas y tiempo}
+%---------------------------------------------------------
+
+\subsection{1.1 Estructura de fechas}
+
+En chino la fecha se expresa de mayor a menor: \textbf{año → mes → día → día de la semana}.
+
+\begin{cuadroazul}
+\textbf{Pregunta por el día del mes:} \quad 今天几号？\quad (jīntiān jǐ hào) — ¿Qué día es hoy?\\[4pt]
+\textbf{Respuesta:} \quad 今天九月一号。\quad (jīntiān jiǔ yuè yī hào) — Hoy es el 1 de septiembre.\\[6pt]
+\textbf{Pregunta por el día de la semana:} \quad 今天星期几？\quad (jīntiān xīngqī jǐ) — ¿Qué día de la semana es hoy?\\[4pt]
+\textbf{Respuesta:} \quad 星期三。\quad (xīngqī sān) — Miércoles.
+\end{cuadroazul}
+
+\vspace{0.5em}
+\noindent\textbf{Vocabulario de tiempo (hoy, ayer, mañana):}
+
+\begin{center}
+\begin{tabular}{llll}
+\toprule
+\textbf{Carácter} & \textbf{Pinyin} & \textbf{Significado} & \textbf{Ejemplo} \\
+\midrule
+今天 & jīntiān & hoy & 今天是星期三 \\
+昨天 & zuótiān & ayer & 昨天是星期二 \\
+明天 & míngtiān & mañana & 明天是星期四 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.5em}
+\noindent\textbf{Días de la semana:}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Carácter} & \textbf{Pinyin} & \textbf{Día} \\
+\midrule
+星期一 & xīngqī yī & lunes \\
+星期二 & xīngqī èr & martes \\
+星期三 & xīngqī sān & miércoles \\
+星期四 & xīngqī sì & jueves \\
+星期五 & xīngqī wǔ & viernes \\
+星期六 & xīngqī liù & sábado \\
+星期日 / 星期天 & xīngqī rì / xīngqī tiān & domingo \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.5em}
+\noindent\textbf{Meses del año:} El patrón es simple: número + 月 (yuè).
+
+\begin{center}
+\begin{tabular}{lll|lll}
+\toprule
+\textbf{Mes} & \textbf{Carácter} & \textbf{Pinyin} & \textbf{Mes} & \textbf{Carácter} & \textbf{Pinyin} \\
+\midrule
+Enero    & 一月  & yī yuè    & Julio      & 七月  & qī yuè \\
+Febrero  & 二月  & èr yuè    & Agosto     & 八月  & bā yuè \\
+Marzo    & 三月  & sān yuè   & Septiembre & 九月  & jiǔ yuè \\
+Abril    & 四月  & sì yuè    & Octubre    & 十月  & shí yuè \\
+Mayo     & 五月  & wǔ yuè    & Noviembre  & 十一月 & shíyī yuè \\
+Junio    & 六月  & liù yuè   & Diciembre  & 十二月 & shí'èr yuè \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{1.2 Preguntar y hablar sobre acciones en el tiempo}
+
+La estructura es: \textbf{tiempo + sujeto + verbo + complemento}. El tiempo va primero, antes del sujeto o inmediatamente después.
+
+\begin{cuadroazul}
+\textbf{Pregunta:} \quad 明天星期六，你去学校吗？\\
+\textit{(Mañana es sábado, ¿vas a la escuela?)}\\[4pt]
+\textbf{Respuesta afirmativa:} \quad 我去学校。\\[4pt]
+\textbf{Pregunta de propósito:} \quad 你去学校做什么？\quad ¿Para qué vas a la escuela?\\[4pt]
+\textbf{Respuesta:} \quad 我去学校看书。\quad Voy a la escuela a leer libros.
+\end{cuadroazul}
+
+\noindent\textbf{Vocabulario nuevo:}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Carácter} & \textbf{Pinyin} & \textbf{Significado} \\
+\midrule
+看书 & kàn shū & leer libros \\
+学校 & xuéxiào & escuela / colegio \\
+做什么 & zuò shénme & hacer qué / para qué \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent\textbf{Nota gramatical clave:} En chino, dos verbos seguidos pueden indicar propósito (ir \textit{para} hacer algo). \mbox{去学校看书} = ir a la escuela [para] leer. No se necesita preposición extra.
+
+%---------------------------------------------------------
+\section{Contenido teórico — Lección 8: Deseos, comida y compras}
+%---------------------------------------------------------
+
+\subsection{2.1 Expresar deseo: 想 (xiǎng)}
+
+\begin{cuadroazul}
+\textbf{Estructura:} \quad 主语 + 想 + 动词 + 宾语\\
+\textit{Sujeto + querer/desear + verbo + objeto}\\[6pt]
+\textbf{Ejemplos:}\\
+你想喝什么？\quad ¿Qué quieres beber?\\
+我想喝茶。\quad Quiero beber té.\\
+你想吃什么？\quad ¿Qué quieres comer?\\
+我想吃米饭。\quad Quiero comer arroz.
+\end{cuadroazul}
+
+\noindent\textbf{Vocabulario de comida y bebida:}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Carácter} & \textbf{Pinyin} & \textbf{Significado} \\
+\midrule
+喝 & hē & beber \\
+吃 & chī & comer \\
+茶 & chá & té \\
+米饭 & mǐfàn & arroz (cocido) \\
+中国菜 & zhōngguó cài & comida china \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{2.2 Actividades de la tarde, noche y mañana}
+
+\begin{cuadroazul}
+\textbf{Partes del día:}\\[4pt]
+\begin{tabular}{lll}
+上午 & shàngwǔ & mañana (antes del mediodía) \\
+下午 & xiàwǔ & tarde \\
+晚上 & wǎnshang & noche \\
+今天上午 & jīntiān shàngwǔ & esta mañana \\
+今天下午 & jīntiān xiàwǔ & esta tarde \\
+今天晚上 & jīntiān wǎnshang & esta noche \\
+明天上午 & míngtiān shàngwǔ & mañana por la mañana \\
+\end{tabular}\\[6pt]
+\textbf{Estructura:} tiempo + sujeto + 想 + verbo + objeto\\
+下午你想做什么？\quad ¿Qué quieres hacer esta tarde?\\
+下午我想去商店。\quad Esta tarde quiero ir a la tienda.
+\end{cuadroazul}
+
+\subsection{2.3 Preguntar precios: 多少钱 (duōshao qián)}
+
+\begin{cuadroazul}
+\textbf{Estructura:} \quad 这个/那个 + objeto + 多少钱？\\[4pt]
+这个杯子多少钱？\quad ¿Cuánto cuesta este vaso?\\
+二十八块。\quad Veintiocho yuanes.\\
+那个被子多少钱？\quad ¿Cuánto cuesta ese edredón?\\
+那个被子十八块钱。\quad Ese edredón cuesta dieciocho yuanes.\\[4pt]
+\textbf{Nota:} 块 (kuài) es la forma coloquial de 元 (yuán). Ambas significan yuan.\\
+这个 = este/esta \quad | \quad 那个 = ese/esa/aquel
+\end{cuadroazul}
+
+\noindent\textbf{Vocabulario de compras:}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Carácter} & \textbf{Pinyin} & \textbf{Significado} \\
+\midrule
+商店 & shāngdiàn & tienda \\
+买 & mǎi & comprar \\
+一个 & yī gè & uno (clasificador general) \\
+被子 & bèizi & edredón / manta \\
+杯子 & bēizi & vaso / taza \\
+多少钱 & duōshao qián & ¿cuánto cuesta? \\
+块 & kuài & yuan (forma coloquial) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{2.4 Combinación con vocabulario anterior}
+
+El profesor combina vocabulario ya conocido. Practica construir oraciones del tipo:
+
+\begin{cuadroazul}
+\textbf{Modelo:} \quad 星期六下午我想去朋友家吃中国菜。\\
+\textit{El sábado por la tarde quiero ir a casa de mi amigo a comer comida china.}\\[6pt]
+Elementos combinados: día + parte del día + 想 + destino + propósito
+\end{cuadroazul}
+
+%---------------------------------------------------------
+\section{Actividades del día — Bloque 1 (aprox. 60 min)}
+%---------------------------------------------------------
+\textit{Escritura de caracteres. Trabaja en tu cuaderno.}
+
+\subsection{Actividad 1 — Copia espaciada: días de la semana}
+
+Para cada día de la semana: cópialo 3 veces mirando el modelo, cúbrelo, escríbelo 3 veces de memoria. Si cometes un error, repite el ciclo. No copies todos seguidos.
+
+\begin{cuadrogris}
+星期一 \quad 星期二 \quad 星期三 \quad 星期四 \quad 星期五 \quad 星期六 \quad 星期日
+\end{cuadrogris}
+
+Al terminar con los 7 días: escríbelos todos en orden sin mirar, una vez. Luego escríbelos en orden inverso (de domingo a lunes), una vez.
+
+\subsection{Actividad 2 — Copia espaciada: vocabulario nuevo lecciones 7 y 8}
+
+Aplica la misma técnica (3 mirando + 3 de memoria) a estos caracteres:
+
+\begin{cuadrogris}
+今天 \quad 昨天 \quad 明天 \quad 学校 \quad 看书 \quad 上午 \quad 下午 \quad 晚上\\[4pt]
+想 \quad 喝 \quad 吃 \quad 茶 \quad 米饭 \quad 商店 \quad 买 \quad 杯子 \quad 被子
+\end{cuadrogris}
+
+\subsection{Actividad 3 — Escritura de fechas concretas}
+
+Escribe en chino las siguientes fechas en tu cuaderno, incluyendo el día de la semana donde se indique. Usa la estructura completa.
+
+\begin{enumerate}[leftmargin=1.5cm]
+\item Hoy (domingo, 22 de junio)
+\item Tu cumpleaños (mes + día + día de la semana si lo sabes)
+\item La fecha de tu próxima clase de chino (martes 24 de junio)
+\item El día de tu primer examen de chino (escríbelo como lo recuerdes)
+\item Ayer y mañana con sus días de la semana correspondientes
+\end{enumerate}
+
+%---------------------------------------------------------
+\section{Actividades del día — Bloque 2 (aprox. 60 min)}
+%---------------------------------------------------------
+\textit{Producción oral y escrita con los diálogos. Trabaja en tu cuaderno.}
+
+\subsection{Actividad 4 — Dictado activo de los diálogos}
+
+Cubre los diálogos de tu apunte. Escribe de memoria cada línea de los tres diálogos de la Lección 7, verificando después. Cada error: repite esa línea 5 veces.
+
+Los tres diálogos a recuperar de memoria son:
+
+\begin{cuadrogris}
+\textbf{Diálogo 1:}\\
+请问，今天几号？\\
+今天九月一号。\\
+今天星期几？\\
+星期三。\\[6pt]
+\textbf{Diálogo 2:}\\
+昨天是几月几号？\\
+昨天是八月三十一号，星期二。\\
+明天呢？\\
+明天是九月二号，星期四。\\[6pt]
+\textbf{Diálogo 3:}\\
+明天星期六，你去学校吗？\\
+我去学校。\\
+你去学校做什么？\\
+我去学校看书。
+\end{cuadrogris}
+
+\subsection{Actividad 5 — Responde estas preguntas por escrito}
+
+Responde en chino usando información real tuya. Escríbelas en tu cuaderno.
+
+\begin{enumerate}[leftmargin=1.5cm]
+\item 今天几号？
+\item 今天星期几？
+\item 昨天是几月几号？
+\item 明天是几月几号，星期几？
+\item 你的生日是几月几号？\quad (生日 = cumpleaños, shēngrì)
+\item 明天你去学校吗？
+\item 你去学校做什么？
+\item 星期六你去学校吗？
+\end{enumerate}
+
+\subsection{Actividad 6 — Construcción libre de oraciones (Lección 7)}
+
+Escribe en tu cuaderno 8 oraciones propias usando la estructura tiempo + sujeto + verbo + complemento. Usa solo vocabulario que ya conoces. Ejemplos del tipo que debes construir (no las copies, crea las tuyas):
+
+\begin{cuadrogris}
+星期二我去学校学习汉语。\\
+明天下午我不去学校。\\
+昨天是星期三，今天是星期四。
+\end{cuadrogris}
+
+%---------------------------------------------------------
+\section{Actividades del día — Bloque 3 (aprox. 60 min)}
+%---------------------------------------------------------
+\textit{Lección 8: deseos, comida y compras.}
+
+\subsection{Actividad 7 — Dictado activo de los diálogos de Lección 8}
+
+Mismo procedimiento que la Actividad 4. Cubre y escribe de memoria:
+
+\begin{cuadrogris}
+\textbf{Diálogo 1:}\\
+你想喝什么？\\
+我想喝茶。\\
+你想吃什么？\\
+我想吃米饭。\\[6pt]
+\textbf{Diálogo 2:}\\
+下午你想做什么？\\
+下午我想去商店。\\
+你想买什么？\\
+我想买一个被子。\\[6pt]
+\textbf{Diálogo 3:}\\
+你好！这个杯子多少钱？\\
+二十八块。\\
+那个杯子多少钱？\\
+那个被子十八块钱。
+\end{cuadrogris}
+
+\subsection{Actividad 8 — Responde por escrito}
+
+\begin{enumerate}[leftmargin=1.5cm]
+\item 你想喝什么？
+\item 你想吃什么？
+\item 今天下午你想做什么？
+\item 今天晚上你想做什么？
+\item 明天上午你想做什么？
+\item 你想买什么？
+\item 这个杯子多少钱？（Inventa un precio）
+\item 你想去商店买什么？
+\end{enumerate}
+
+\subsection{Actividad 9 — Construcción combinada: vocabulario antiguo + nuevo}
+
+Escribe en tu cuaderno las siguientes oraciones \textbf{sin mirar referencia}. Usa el vocabulario de los exámenes 1 y 2 combinado con el nuevo:
+
+\begin{enumerate}[leftmargin=1.5cm]
+\item Di que el sábado por la tarde quieres ir a casa de tu amigo.
+\item Di que quieres comer comida china con tu compañero de clase.
+\item Pregunta a tu profesor qué quiere beber.
+\item Di que tu mamá no habla chino pero quiere aprender.
+\item Di que hoy es lunes y mañana quieres ir a la escuela a estudiar chino.
+\item Di que ayer fuiste a la tienda y compraste un vaso.
+\item Pregunta cuánto cuesta ese edredón.
+\item Di que tu familia tiene seis personas y esta noche quieren comer arroz.
+\end{enumerate}
+
+%---------------------------------------------------------
+\section{Actividades del día — Bloque 4 (aprox. 30--40 min)}
+%---------------------------------------------------------
+\textit{Revisión y repaso de exámenes anteriores.}
+
+\subsection{Actividad 10 — Dictado de vocabulario del examen 1}
+
+Pide a alguien que te dicte las palabras en español, o dítelas a ti mismo en voz alta con los ojos cerrados y escribe el carácter. Si estás solo, lee la palabra en español, cierra los ojos, escribe el carácter, y luego verifica.
+
+\begin{cuadrogris}
+Hola (formal) · Gracias · Perdón · De nada · Adiós · Nosotros · China (país) · Estadounidense · Nombre · Profesor
+\end{cuadrogris}
+
+\subsection{Actividad 11 — Dictado de vocabulario del examen 2}
+
+\begin{cuadrogris}
+Amigo · Hablar chino · Saber/poder · Casa · Este año · Compañero de clase · Mamá · Comida china · Seis miembros · 56 años
+\end{cuadrogris}
+
+\subsection{Actividad 12 — Reordena y traduce}
+
+Sin mirar referencia, reordena las siguientes palabras para formar oraciones correctas y tradúcelas al español en tu cuaderno:
+
+\begin{enumerate}[leftmargin=1.5cm]
+\item 想 / 喝 / 我 / 茶 / 下午
+\item 星期六 / 去 / 你 / 吗 / 商店
+\item 做 / 明天 / 什么 / 你 / 想
+\item 家 / 朋友 / 去 / 晚上 / 我 / 的 / 想
+\item 中国菜 / 吃 / 同学 / 和 / 我 / 想 / 我的
+\item 几号 / 昨天 / 是 / 几月
+\end{enumerate}
+
+\vspace{1em}
+\hrule
+\vspace{0.5em}
+
+\begin{center}
+\textcolor{gray}{\small \textbf{Al terminar hoy:} revisa los caracteres nuevos una última vez. Mañana el foco cambia a producción oral y repaso integrado.}
+\end{center}
+
+\newpage
+%---------------------------------------------------------
+\section*{\textcolor{rojosuave}{Respuestas — Actividades con respuesta única}}
+%---------------------------------------------------------
+
+\textbf{Actividad 3 — Fechas:}
+\begin{enumerate}[leftmargin=1.5cm]
+\item 今天是六月二十二号，星期日。
+\item (Depende de tu fecha de nacimiento)
+\item 六月二十四号，星期二。
+\item (Depende de tu examen)
+\item 昨天是六月二十一号，星期六。\quad 明天是六月二十三号，星期一。
+\end{enumerate}
+
+\textbf{Actividad 5 — Preguntas sobre el tiempo:}
+\begin{enumerate}[leftmargin=1.5cm]
+\item 今天六月二十二号。
+\item 今天星期日。
+\item 昨天是六月二十一号。
+\item 明天是六月二十三号，星期一。
+\item (Depende de tu cumpleaños)
+\item 明天我不去学校。 / 明天我去学校。 (según tu caso)
+\item 我去学校学习。/ 我去学校看书。
+\item 星期六我不去学校。 / 星期六我去学校。
+\end{enumerate}
+
+\textbf{Actividad 8 — Respuestas con 想:}
+\begin{enumerate}[leftmargin=1.5cm]
+\item 我想喝茶。/ 我想喝水。(水 = agua, shuǐ)
+\item 我想吃米饭。/ 我想吃中国菜。
+\item 今天下午我想学习汉语。/ 今天下午我想去商店。
+\item 今天晚上我想看书。
+\item 明天上午我想去学校。
+\item 我想买一个杯子。/ 我想买一个被子。
+\item (Inventa un precio: 三十块 / 五十块, etc.)
+\item 我想去商店买被子。/ 我想去商店买杯子。
+\end{enumerate}
+
+\textbf{Actividad 9 — Oraciones combinadas:}
+\begin{enumerate}[leftmargin=1.5cm]
+\item 星期六下午我想去朋友家。
+\item 我想和同学吃中国菜。
+\item 老师，你想喝什么？
+\item 我妈妈不会说汉语，但是她想学。\quad (但是 = pero, dànshì — vocabulario de apoyo)
+\item 今天是星期一，明天我想去学校学习汉语。
+\item 昨天我去商店买了一个杯子。\quad (Nota: 了 marca pasado — lo verás próximamente)
+\item 那个被子多少钱？
+\item 我家有六口人，今天晚上我们想吃米饭。
+\end{enumerate}
+
+\textbf{Actividad 12 — Reordenamiento:}
+\begin{enumerate}[leftmargin=1.5cm]
+\item 下午我想喝茶。\quad \textit{Esta tarde quiero beber té.}
+\item 星期六你去商店吗？\quad \textit{¿El sábado vas a la tienda?}
+\item 明天你想做什么？\quad \textit{¿Qué quieres hacer mañana?}
+\item 晚上我想去朋友的家。\quad \textit{Esta noche quiero ir a casa de mi amigo.}
+\item 我想和我的同学吃中国菜。\quad \textit{Quiero comer comida china con mi compañero de clase.}
+\item 昨天是几月几号？\quad \textit{¿Qué fecha fue ayer?}
+\end{enumerate}
+
+\end{document}
